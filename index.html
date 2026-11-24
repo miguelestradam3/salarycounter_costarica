@@ -2,424 +2,525 @@
 <html lang="es" prefix="og: https://valordeltiempo.com">
 <head>
   <meta charset="UTF-8">
-
   <meta name="google-adsense-account" content="ca-pub-7712765517917992">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>ValordelTiempo - Calculadora de Salario Neto</title>
+  <title>ValordelTiempo - Calculadora de Salario Neto Costa Rica</title>
   
   <!-- General Meta Tags -->
-  <meta name="title" content="ValordelTiempo - Calculadora de Salario Neto">
+  <meta name="title" content="ValordelTiempo - Calculadora de Salario Neto Costa Rica">
   <meta name="description" content="Calculadora de salario neto en base a salario bruto mensual, conoce tu aporte de impuesto a la renta y el seguro social costarricense por mes">
   <meta name="keywords" content="salario neto, salario bruto, costa rica, valor del tiempo, valordeltiempo, salarios costa rica, análisis de salario neto, análisis de salario bruto, impuesto a la renta, impuestos, calculadora de salario neto, impuestos costa rica, salarios costa rica, calculadora de salario">
   <meta name="image" content="assets/images/favicon.png">
   <meta name="author" content="Leonardo Murillo">
   
-  <!-- General Meta Tags - Different Syntax -->
-  <meta itemprop="name" content="Calculadora de Salario Neto">
-  <meta itemprop="description" content="Calculadora de salario neto en base a salario bruto mensual, conoce tu aporte de impuesto a la renta y el seguro social costarricense por mes">
-  <meta itemprop="image" content="assets/images/favicon.png">
-  <link rel="canonical" href="https://valordeltiempo.com" />
-  
   <!-- Open Graph Meta Tags -->
   <meta property="og:url" content="https://valordeltiempo.com">
   <meta property="og:type" content="website">
-
   <meta property="og:image" content="assets/images/favicon.png">
   <meta property="og:image:secure_url" content="assets/images/favicon.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="400" />
   <meta property="og:image:height" content="300" />
-  <meta property="og:image:alt" content="Calculadora de salario neto en base a salario bruto mensual, conoce tu aporte de impuesto a la renta y el seguro social costarricense por mes" />
-
+  <meta property="og:image:alt" content="Calculadora de salario neto en Costa Rica" />
   <meta property="og:description" content="Calculadora de salario neto en base a salario bruto mensual, conoce tu aporte de impuesto a la renta y el seguro social costarricense por mes">
-  <meta property="og:title" content="Calculadora de Salario Neto">
-  <meta property="og:site_name" content="Calculadora de Salario Neto">
-  
-  <!-- Twitter/X Meta Tags -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="https://valordeltiempo.com">
-  <meta name="twitter:title" content="Calculadora de Salario Neto">
-  <meta name="twitter:description" content="Calculadora de salario neto en base a salario bruto mensual, conoce tu aporte de impuesto a la renta y el seguro social costarricense por mes">
-  <meta name="twitter:image" content="assets/images/favicon.png">
+  <meta property="og:title" content="ValordelTiempo - Calculadora de Salario Neto">
+  <meta property="og:site_name" content="ValordelTiempo">
+  <link rel="canonical" href="https://valordeltiempo.com" />
 
   <!-- Favicons -->
   <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
   <link rel="icon" href="assets/images/favicon.png" type="image/png" />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
+  <!-- Bootstrap & Vendor CSS -->
   <link href="assets/vendor/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
+  <!-- Main Custom CSS -->
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- Google Ads Script -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7712765517917992"
-  crossorigin="anonymous"></script>
-
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7712765517917992" crossorigin="anonymous"></script>
 </head>
-<body class="index-page p-1">
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+<body class="index-page">
 
-      <a aria-label="Link al sitio web valor del tiempo" href="index.html" class="logo d-flex align-items-center me-auto">
-        <h1 class="sitename">ValordelTiempo</h1>
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+      <a aria-label="Link al inicio de Valor del Tiempo" href="index.html" class="logo">
+        <div class="logo-icon"><i class="bi bi-clock-history"></i></div>
+        <h1 class="sitename">Valor<span>delTiempo</span></h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Inicio<br></a></li>
-          <li><a href="reuniones.html" class="active">Reuniones<br></a></li>
+          <li><a href="index.html" class="active"><i class="bi bi-calculator me-2"></i>Calculadora de Salario</a></li>
+          <li><a href="reuniones.html"><i class="bi bi-people me-2"></i>Calculadora de Reuniones</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        <i class="mobile-nav-toggle bi bi-list"></i>
       </nav>
-
     </div>
   </header>
+
   <main class="main">
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
+      <img src="assets/images/map.png" alt="Fondo" class="hero-bg" data-aos="fade-in">
 
-      <img src="assets/images/map.png" alt="Imagen de fondo" class="hero-bg" data-aos="fade-in">
+      <div class="container position-relative">
+        <div class="row gy-5 align-items-center justify-content-between">
+          <!-- Hero Text -->
+          <div class="col-lg-6 d-flex flex-column justify-content-center text-center text-lg-start" data-aos="fade-up">
+            <div class="d-inline-flex align-items-center gap-2 px-3 py-1 mb-3 rounded-pill align-self-center align-self-lg-start" style="background: rgba(37,99,235,0.18); border: 1px solid rgba(96,165,250,0.3); color: #93c5fd; font-size: 0.85rem; font-weight: 600;">
+              <i class="bi bi-shield-check text-info"></i> 100% Privado · Sin almacenar tus datos
+            </div>
 
-      <div class="container">
-        <div class="row gy-4 d-flex justify-content-between">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <div class="alert alert-success" id="mensajed">
-            </div>
-            <h2 data-aos="fade-up">¿Sabes cuánto vale tu tiempo realmente?</h2>
-            <p data-aos="fade-up" data-aos-delay="100">¿Cuánto vale tu tiempo? Descúbrelo sin riesgos. En valordeltiempo.com calculamos tu salario neto con precisión y sin guardar tu información. Explora nuestra herramienta y observa cómo cada segundo cuenta. ¡Haz clic ahora y compruébalo por ti mismo!</p>
-            <div class="row mb-3">
-              <label class="form-label" for="salary">Ingresa tu salario bruto mensual:</label>
-              <input class="form-control" type="number" id="salary" value="300000" placeholder="300,000.00" min="0" pattern="^(?=.)(\d{1,3}(,\d{3})*)?(\.\d+)?$" required/>
-            </div>
-            <div class="row mb-3">
-              <label class="form-label" for="hours">Ingresa la horas trabajadas por semana:</label>
-              <input class="form-control" type="number" id="workedhours" value="48" placeholder="48" min="0" pattern="^(?=.)(\d{1,3}(,\d{3})*)?(\.\d+)?$" required/>
-            </div>
-            <div class="row mb-3">
-              <button class="btn btn-primary" onclick="calculate()">Calcular</button>
-            </div>
-            <div class="row mb-3">
-              <div class="alert alert-info" id="miniresultadotiempo">
+            <h2>¿Sabes cuánto vale tu tiempo de trabajo realmente?</h2>
+            <p>Descubre con precisión matemática tu salario neto mensual en Costa Rica. Calculamos en tiempo real tus aportes al Seguro Social (CCSS) y al Impuesto sobre la Renta del Ministerio de Hacienda.</p>
+
+            <div class="hero-features mt-2 d-none d-md-block">
+              <div class="hero-feature-item">
+                <span class="hero-feature-icon"><i class="bi bi-check2"></i></span>
+                <span>Deducción exacta de la cuota obrera CCSS (10.67%)</span>
               </div>
-              <br/>
-              <div class="alert alert-info" id="miniresultadoingreso">
+              <div class="hero-feature-item">
+                <span class="hero-feature-icon"><i class="bi bi-check2"></i></span>
+                <span>Tramos vigentes de Impuesto a la Renta de personas asalariadas</span>
+              </div>
+              <div class="hero-feature-item">
+                <span class="hero-feature-icon"><i class="bi bi-check2"></i></span>
+                <span>Taxímetro en tiempo real que calcula tu ingreso segundo a segundo</span>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <div class="container">
-              <img src="assets/images/dollar.png" class="img-fluid" alt="Imagen de un dolar">
+
+          <!-- Hero Calculator Card -->
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="150">
+            <div class="calc-card shadow-lg">
+              <div class="calc-card-header d-flex align-items-center justify-content-between">
+                <h3><i class="bi bi-sliders2 text-primary"></i> Calculadora Salarial</h3>
+                <span class="badge bg-primary-subtle text-primary border border-primary-subtle">Costa Rica</span>
+              </div>
+
+              <!-- Alert Messages from JS -->
+              <div class="alert alert-success" id="mensajed" style="display: none;"></div>
+
+              <!-- Salary Form -->
+              <div class="mb-3">
+                <label class="form-label" for="salary">
+                  <i class="bi bi-cash-stack text-primary me-1"></i> Salario bruto mensual:
+                </label>
+                <div class="input-group">
+                  <span class="input-group-text">₡</span>
+                  <input class="form-control form-control-lg fw-bold" type="number" id="salary" value="300000" placeholder="300,000" min="0" required />
+                </div>
+                <!-- Salary Presets Chips -->
+                <div class="salary-presets">
+                  <span class="text-muted small me-1 align-self-center">Frecuentes:</span>
+                  <span class="salary-chip" onclick="document.getElementById('salary').value = 350000; calculate();">₡350k</span>
+                  <span class="salary-chip" onclick="document.getElementById('salary').value = 500000; calculate();">₡500k</span>
+                  <span class="salary-chip" onclick="document.getElementById('salary').value = 850000; calculate();">₡850k</span>
+                  <span class="salary-chip" onclick="document.getElementById('salary').value = 1200000; calculate();">₡1.2M</span>
+                  <span class="salary-chip" onclick="document.getElementById('salary').value = 2000000; calculate();">₡2.0M</span>
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label class="form-label" for="workedhours">
+                  <i class="bi bi-clock-history text-primary me-1"></i> Horas laboradas por semana:
+                </label>
+                <div class="input-group">
+                  <span class="input-group-text"><i class="bi bi-calendar3"></i></span>
+                  <input class="form-control" type="number" id="workedhours" value="48" placeholder="48" min="0" required />
+                  <span class="input-group-text">hrs / sem</span>
+                </div>
+                <div class="form-text text-muted small">Jornada ordinaria habitual en Costa Rica: 48 horas (o 40-45 h según contrato).</div>
+              </div>
+
+              <div class="d-grid gap-2 mb-3">
+                <button class="btn btn-calc" onclick="calculate()">
+                  <i class="bi bi-calculator"></i> Calcular Salario Neto
+                </button>
+              </div>
+
+              <!-- Mini live indicators handled by index.js -->
+              <div class="d-flex flex-column gap-2 mt-3">
+                <div class="alert alert-info py-2 px-3 mb-0" id="miniresultadotiempo" style="display: none;"></div>
+                <div class="alert alert-info py-2 px-3 mb-0" id="miniresultadoingreso" style="display: none;"></div>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
     </section>
 
-      <div id="result" class="row gy-4">
-        <br/>
-        <section id="alt-pricing" class="alt-pricing section">
-          <div class="container section-title" data-aos="fade-up">
-            <span>Aporte en impuestos por mes</span>
-            <h2 class="title">Aporte en impuestos por mes</h2>
-            <p class="description">No más complicaciones con números. Entra a valordeltiempo.com, descubre tu salario neto y cuánto vale cada segundo de tu esfuerzo. ¡Prueba nuestra herramienta gratuita ahora!</p>
-          </div><!-- End Section Title -->
-          <div class="container">
-            <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="200">
-              <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                <h3>Aporte Seguro Social</h3>
-              </div>
-              <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                <h4 id="ccss"></h4>
-              </div>
-              <div class="col-lg-2 d-flex align-items-center justify-content-center">
-                <img class="img-fluid" src="assets/images/ccss.png" alt="Seguro Social de Costa Rica" style="max-width: 60% !important;"/>
-              </div>
-            </div><!-- End Pricing Item -->
-            <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="100">
-              <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                <h3>Aporte de Impuesto a la Renta</h3>
-              </div>
-              <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                <h4 id="renta"></h4>
-              </div>
-              <div class="col-lg-2 d-flex align-items-center justify-content-center">
-                <img class="img-fluid" src="assets/images/hacienda.svg" alt="Ministerio de Hacienda de Costa Rica" style="max-width: 60% !important;"/>
-              </div>
-            </div><!-- End Pricing Item -->
+    <!-- Results Container (Toggled by index.js: calculate()) -->
+    <div id="result" class="container my-5" style="display: none; flex-direction: column;">
+      
+      <!-- Comparative Pricing Cards (Bruto vs Neto) -->
+      <section id="pricing" class="pricing section py-4">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <span>Resumen Ejecutivo</span>
+            <h2>Tu Salario Mensual</h2>
+            <p>Comparación directa entre lo contratado con tu patrono y el ingreso neto real transferido a tu cuenta bancaria.</p>
           </div>
-        </section>
 
-        <!-- Stats section -->
-
-        <!-- Stats Section -->
-        <section id="stats" class="stats section">
-
-          <div class="container section-title" data-aos="fade-up">
-            <span>Ingresos netos en diferentes cantidades de tiempo</span>
-            <h2 class="title">Ingresos netos en diferentes cantidades de tiempo</h2>
-            <p class="description">¿Sabes cuánto vale tu tiempo realmente? Descúbrelo en segundos con nuestra herramienta gratuita en valordeltiempo.com. Calcula tu salario neto con precisión y visualiza cada segundo de esfuerzo convertido en ingresos. ¡Haz que tus finanzas trabajen a tu favor!</p>
-          </div><!-- End Section Title -->
-
-          <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="row gy-4">
-
-              <div class="col-lg-3 col-md-6">
-                <div class="stats-item text-center w-100 h-100">
-                  <span id="seconds"></span>
-                  <p>Ingreso por segundo</p>
-                </div>
-              </div><!-- End Stats Item -->
-
-              <div class="col-lg-3 col-md-6">
-                <div class="stats-item text-center w-100 h-100">
-                  <span id="minutes"></span>
-                  <p>Ingreso por minuto</p>
-                </div>
-              </div><!-- End Stats Item -->
-
-              <div class="col-lg-3 col-md-6">
-                <div class="stats-item text-center w-100 h-100">
-                  <span id="hours"></span>
-                  <p>Ingreso por hora</p>
-                </div>
-              </div><!-- End Stats Item -->
-
-              <div class="col-lg-3 col-md-6">
-                <div class="stats-item text-center w-100 h-100">
-                  <span id="days"></span>
-                  <p>Ingreso por día</p>
-                </div>
-              </div><!-- End Stats Item -->
-
+          <div class="row gy-4 justify-content-center">
+            <!-- Salario Bruto -->
+            <div class="col-lg-6 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pricing-item">
+                <h3><i class="bi bi-briefcase text-secondary"></i> Salario Bruto</h3>
+                <h4 id="raw">₡0.00</h4>
+                <ul>
+                  <li><i class="bi bi-building"></i> <span>Salario bruto mensual estipulado en tu contrato laboral.</span></li>
+                  <li><i class="bi bi-pie-chart"></i> <span>Base imponible para deducciones de ley y cargas sociales.</span></li>
+                </ul>
+              </div>
             </div>
 
+            <!-- Salario Neto -->
+            <div class="col-lg-6 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pricing-item featured">
+                <h3><i class="bi bi-wallet2 text-success"></i> Salario Neto</h3>
+                <h4 id="months">₡0.00</h4>
+                <ul>
+                  <li><i class="bi bi-shield-check text-success"></i> <span>Monto libre luego de deducir 10.67% de CCSS.</span></li>
+                  <li><i class="bi bi-receipt text-success"></i> <span>Descuento aplicado de Impuesto sobre la Renta progresivo.</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Deductions Breakdown (CCSS y Hacienda) -->
+      <section id="alt-pricing" class="alt-pricing section">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <span>Cargas Obligatorias</span>
+            <h2>Aportes de Ley por Mes</h2>
+            <p>Conoce a dónde va cada colón deducido de tu salario bruto de acuerdo a la legislación laboral de Costa Rica.</p>
           </div>
 
-        </section><!-- /Stats Section -->
-
-        <!-- Stats section finish -->
-         
-        <!-- Pricing Section -->
-        <section id="pricing" class="pricing section">
-          <div class="container p-1">
-            <div class="row gy-4">
-              <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
-                <div class="pricing-item">
-                  <h3> <i class="bi bi-cash"></i> &nbsp; Salario Bruto</h3>
-                  <h4 id="raw"></h4>
-                  <ul>
-                    <li><i class="bi bi-buildings-fill"></i> <span> &nbsp;Salario bruto mensual acordado con el patrono</span></li>
+          <div class="row gy-4">
+            <!-- CCSS -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="pricing-item featured h-100 d-flex flex-column justify-content-between">
+                <div>
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <h3>Aporte Seguro Social (CCSS)</h3>
+                    <span class="badge bg-primary-subtle text-primary fw-bold">10.67% Obligatorio</span>
+                  </div>
+                  <h4 id="ccss">₡0.00</h4>
+                  <ul class="mt-3">
+                    <li><i class="bi bi-check-circle-fill text-primary"></i> <span>5.50% Seguro de Enfermedad y Maternidad (SEM)</span></li>
+                    <li><i class="bi bi-check-circle-fill text-primary"></i> <span>4.17% Régimen de Invalidez, Vejez y Muerte (IVM)</span></li>
+                    <li><i class="bi bi-check-circle-fill text-primary"></i> <span>1.00% Aporte a la Ley de Protección al Trabajador (LPT)</span></li>
                   </ul>
                 </div>
-              </div><!-- End Pricing Item -->
+                <div class="d-flex justify-content-end pt-3 border-top">
+                  <img class="img-fluid institution-logo" src="assets/images/ccss.png" alt="Seguro Social de Costa Rica" style="max-height: 48px;" />
+                </div>
+              </div>
+            </div>
 
-              <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
-                <div class="pricing-item featured">
-                  <h3> <i class="bi bi-cash"></i> &nbsp; Salario Neto</h3>
-                  <h4 id="months"></h4>
-                  <ul>
-                    <li><i class="bi bi-buildings-fill"></i> <span> &nbsp;Aporte del 10.67% al seguro social</span></li>
-                    <li><i class="bi bi-buildings-fill"></i> <span> &nbsp;Aporte de impuestos a la renta considerado en base al salario mensual</span></li>
+            <!-- Renta -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="pricing-item h-100 d-flex flex-column justify-content-between">
+                <div>
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <h3>Impuesto a la Renta</h3>
+                    <span class="badge bg-warning-subtle text-warning fw-bold">Retención Escalonada</span>
+                  </div>
+                  <h4 id="renta">₡0.00</h4>
+                  <ul class="mt-3">
+                    <li><i class="bi bi-check-circle-fill text-warning"></i> <span>Retención mensual efectuada por el patrono al Ministerio de Hacienda.</span></li>
+                    <li><i class="bi bi-check-circle-fill text-warning"></i> <span>Exento de impuesto para salarios brutos hasta ₡929,000.</span></li>
+                    <li><i class="bi bi-check-circle-fill text-warning"></i> <span>Escala progresiva del 10%, 15%, 20% y hasta 25% para el excedente.</span></li>
                   </ul>
                 </div>
-              </div><!-- End Pricing Item -->
+                <div class="d-flex justify-content-end pt-3 border-top">
+                  <img class="img-fluid institution-logo" src="assets/images/hacienda.svg" alt="Ministerio de Hacienda de Costa Rica" style="max-height: 48px;" />
+                </div>
+              </div>
             </div>
           </div>
-        </section><!-- /Pricing Section -->
-        <section id="alt-pricing" class="alt-pricing section">
-          <div class="container">
-          <!-- Section Title -->
-          <div class="container section-title" data-aos="fade-up">
-            <span>Ganancias a tiempo real</span>
-            <h2>Ganancias a tiempo real</h2>
-            <p>¿Cuánto ganas por segundo? Descúbrelo con nuestro ‘taxímetro’ financiero. Introduce tu salario y las horas trabajadas, y deja que la magia suceda en valordeltiempo.com. ¡Conocer tu salario neto nunca fue tan simple!</p>
-          </div><!-- End Section Title -->
-            <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="200">
-              <div class="col-lg-12 d-flex align-items-center justify-content-center">
-                <h4 class="monospace" id="clock"></h4>
-              </div>
-              <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                <h4><sup id="earnings"></sup><span> / en base al salario neto</span></h4>
-              </div>
-              <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                <h4><sup id="brutoearnings"></sup><span> / en base al salario bruto</span></h4>
-              </div>
-              <div class="col-lg-12 d-flex align-items-center justify-content-center">
-                <ul>
-                  <li><i class="bi bi-clock-fill"></i> <span> &nbsp;Ganancias en tiempo real</span></li>
-                </ul>
-              </div>
-            </div><!-- End Pricing Item -->
+        </div>
+      </section>
 
-            <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="100">
-              <div class="col-lg-12 d-flex align-items-center justify-content-center">
-                <h4 class="monospace" id="clock2"></h4>
-              </div>
-              <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                <h4><sup id="earnings2"></sup><span> / en base al salario neto</span></h4>
-              </div>
-              <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                <h4><sup id="brutoearnings2"></sup><span> / en base al salario bruto</span></h4>
-              </div>
-              <div class="col-lg-12 d-flex align-items-center justify-content-center">
-                <ul>
-                  <li><i class="bi bi-clock-fill"></i> <span> &nbsp;Ganancias a dos veces el tiempo real</span></li>
-                </ul>
-              </div>
-            </div><!-- End Pricing Item -->
-
-            <div class="row pricing-item featured" data-aos="fade-up" data-aos-delay="200">
-              <div class="col-lg-12 d-flex align-items-center justify-content-center">
-                <h4 class="monospace" id="clock3"><span></span></h4>
-              </div>
-              <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                <h4><sup id="earnings3"></sup><span> / en base al salario neto</span></h4>
-              </div>
-              <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                <h4><sup id="brutoearnings3"></sup><span> / en base al salario bruto</span></h4>
-              </div>
-              <div class="col-lg-12 d-flex align-items-center justify-content-center">
-                <ul>
-                  <li><i class="bi bi-clock-fill"></i> <span> &nbsp;Ganancias a cinco veces el tiempo real</span></li>
-                </ul>
-              </div>
-            </div><!-- End Pricing Item -->
-            
+      <!-- Time Conversion Grid -->
+      <section id="stats" class="stats section py-4">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <span>Fracciones de Tiempo</span>
+            <h2>Ingresos Netos por Unidad de Tiempo</h2>
+            <p>Así se distribuye tu remuneración neta según tu jornada y horas laboradas semanales.</p>
           </div>
-        </section>
-        <!-- Faq Section -->
-        <section id="faq" class="faq section">
 
-          <!-- Section Title -->
-          <div class="container section-title" data-aos="fade-up">
-            <span>Preguntas comunes</span>
-            <h2>Preguntas comunes</h2>
-            <p>Información como por ejemplo, los cambios de impuesto a la renta en base al salario bruto mensual o el aporte del seguro social</p>
-          </div><!-- End Section Title -->
+          <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+            <!-- Segundo -->
+            <div class="col-lg-3 col-sm-6">
+              <div class="stats-card">
+                <div class="stats-icon-wrap"><i class="bi bi-stopwatch"></i></div>
+                <div class="stats-value" id="seconds">₡0.00</div>
+                <p class="stats-label">Por Segundo</p>
+              </div>
+            </div>
 
-          <div class="container">
+            <!-- Minuto -->
+            <div class="col-lg-3 col-sm-6">
+              <div class="stats-card">
+                <div class="stats-icon-wrap"><i class="bi bi-lightning-charge"></i></div>
+                <div class="stats-value" id="minutes">₡0.00</div>
+                <p class="stats-label">Por Minuto</p>
+              </div>
+            </div>
 
-            <div class="row justify-content-center">
+            <!-- Hora -->
+            <div class="col-lg-3 col-sm-6">
+              <div class="stats-card">
+                <div class="stats-icon-wrap"><i class="bi bi-clock"></i></div>
+                <div class="stats-value" id="hours">₡0.00</div>
+                <p class="stats-label">Por Hora</p>
+              </div>
+            </div>
 
-              <div class="col-lg-10">
+            <!-- Día -->
+            <div class="col-lg-3 col-sm-6">
+              <div class="stats-card">
+                <div class="stats-icon-wrap"><i class="bi bi-sun"></i></div>
+                <div class="stats-value" id="days">₡0.00</div>
+                <p class="stats-label">Por Jornada (Día)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                <div class="faq-container">
+      <!-- Real-Time Ticker / Taxímetro Section -->
+      <section class="realtime-dashboard my-4" data-aos="fade-up">
+        <div class="d-flex flex-wrap align-items-center justify-content-between mb-4 pb-3 border-bottom border-secondary border-opacity-25 gap-3">
+          <div>
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <span class="live-badge"><span class="live-dot"></span> EN VIVO</span>
+              <h2 class="text-white m-0 fs-3">Taxímetro Financiero</h2>
+            </div>
+            <p class="text-light-muted mb-0">Contabiliza en tiempo real las ganancias generadas desde que abriste la consulta.</p>
+          </div>
+          <div class="text-end">
+            <span class="badge bg-primary-subtle text-primary px-3 py-2 rounded-pill"><i class="bi bi-cpu me-1"></i> Cálculo Reactivo</span>
+          </div>
+        </div>
 
-                  <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
-                    <i class="faq-icon bi bi-question-circle"></i>
-                    <h3>Seguro Social en Costa Rica</h3>
-                    <div class="faq-content">
-                      <p>En Costa Rica existe un impuesto obligatorio dirigido a la CCSS, el cual es el seguro social del país</p>
-                      <br/>
-                      <p>En este caso el porcentaje es del: <span>10.64%</span></p>
-                    </div>
-                    <i class="faq-toggle bi bi-chevron-right"></i>
-                  </div><!-- End Faq item-->
-
-                  <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
-                    <i class="faq-icon bi bi-question-circle"></i>
-                    <h3>Impuesto a la renta en Costa Rica</h3>
-                    <div class="faq-content">
-                      <p>En base, al salario bruto mensual, hasta los ₡929,000/00 no hay impuesto como tal</p>
-                      <br/>
-                      <p>Por otro lado, entre los ₡929,000 y los ₡1,363,000.00 el impuesto es de un %10 sobre el impuesto bruto</p>
-                      <br/>
-                      <p>Por otro lado, entre los ₡1,363,000 y los ₡2,392,000.00 el impuesto es de un %15 sobre el impuesto bruto</p>
-                      <br/>
-                      <p>Por otro lado, entre los ₡2,392,000.00 y los ₡4,783,000.00 el impuesto es de un %20 sobre el impuesto bruto</p>
-                      <br/>
-                      <p>Mientras que, los ingresos mayores a ₡4,783,000.00 tienen un pusto del %25 sobre el impuesto bruto</p>
-                    </div>
-                    <i class="faq-toggle bi bi-chevron-right"></i>
-                  </div><!-- End Faq item-->
-
+        <div class="row gy-4">
+          <!-- 1x Realtime -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="ticker-item h-100 d-flex flex-column justify-content-between">
+              <div>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <span class="badge bg-info-subtle text-info">1x Tiempo Real</span>
+                  <small class="text-light-muted"><i class="bi bi-clock me-1"></i>Transcurrido</small>
+                </div>
+                <div class="digital-clock-display text-center my-3" id="clock">00:00:00</div>
+                
+                <div class="bg-black bg-opacity-25 p-3 rounded-3 mb-2">
+                  <div class="ticker-label text-success-emphasis mb-1">Ingreso Neto Acumulado:</div>
+                  <div class="ticker-stat-value neto fs-4"><sup id="earnings">₡0.00</sup></div>
                 </div>
 
+                <div class="bg-black bg-opacity-25 p-3 rounded-3">
+                  <div class="ticker-label text-light-muted mb-1">Ingreso Bruto Acumulado:</div>
+                  <div class="ticker-stat-value bruto fs-5"><sup id="brutoearnings">₡0.00</sup></div>
+                </div>
               </div>
-
+              <div class="mt-3 pt-2 text-center text-light-muted small border-top border-secondary border-opacity-25">
+                <i class="bi bi-activity text-info me-1"></i> Tasa estándar de tiempo
+              </div>
             </div>
-
           </div>
 
-        </section><!-- /Faq Section -->
-      </div>
+          <!-- 2x Speed -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="ticker-item h-100 d-flex flex-column justify-content-between">
+              <div>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <span class="badge bg-warning-subtle text-warning">2x Velocidad</span>
+                  <small class="text-light-muted"><i class="bi bi-speedometer2 me-1"></i>Acelerado</small>
+                </div>
+                <div class="digital-clock-display text-center my-3" id="clock2">00:00:00</div>
+                
+                <div class="bg-black bg-opacity-25 p-3 rounded-3 mb-2">
+                  <div class="ticker-label text-success-emphasis mb-1">Ingreso Neto Acumulado:</div>
+                  <div class="ticker-stat-value neto fs-4"><sup id="earnings2">₡0.00</sup></div>
+                </div>
 
+                <div class="bg-black bg-opacity-25 p-3 rounded-3">
+                  <div class="ticker-label text-light-muted mb-1">Ingreso Bruto Acumulado:</div>
+                  <div class="ticker-stat-value bruto fs-5"><sup id="brutoearnings2">₡0.00</sup></div>
+                </div>
+              </div>
+              <div class="mt-3 pt-2 text-center text-light-muted small border-top border-secondary border-opacity-25">
+                <i class="bi bi-lightning text-warning me-1"></i> Doble velocidad de simulación
+              </div>
+            </div>
+          </div>
+
+          <!-- 5x Speed -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="ticker-item h-100 d-flex flex-column justify-content-between">
+              <div>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <span class="badge bg-danger-subtle text-danger">5x Turbo</span>
+                  <small class="text-light-muted"><i class="bi bi-rocket-takeoff me-1"></i>Rápido</small>
+                </div>
+                <div class="digital-clock-display text-center my-3" id="clock3">00:00:00</div>
+                
+                <div class="bg-black bg-opacity-25 p-3 rounded-3 mb-2">
+                  <div class="ticker-label text-success-emphasis mb-1">Ingreso Neto Acumulado:</div>
+                  <div class="ticker-stat-value neto fs-4"><sup id="earnings3">₡0.00</sup></div>
+                </div>
+
+                <div class="bg-black bg-opacity-25 p-3 rounded-3">
+                  <div class="ticker-label text-light-muted mb-1">Ingreso Bruto Acumulado:</div>
+                  <div class="ticker-stat-value bruto fs-5"><sup id="brutoearnings3">₡0.00</sup></div>
+                </div>
+              </div>
+              <div class="mt-3 pt-2 text-center text-light-muted small border-top border-secondary border-opacity-25">
+                <i class="bi bi-fire text-danger me-1"></i> Cinco veces la velocidad real
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section id="faq" class="faq section py-4">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <span>Guía & Normativa</span>
+            <h2>Preguntas Frecuentes</h2>
+            <p>Conoce las deducciones de ley vigentes y cómo se estructuran las retenciones fiscales en Costa Rica.</p>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="faq-container">
+                <!-- FAQ 1 -->
+                <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="100">
+                  <i class="faq-icon bi bi-shield-plus"></i>
+                  <h3>¿Qué es el seguro social de la CCSS y cuál es el porcentaje deducido?</h3>
+                  <div class="faq-content">
+                    <p>En Costa Rica existe un aporte obrero de carácter obligatorio destinado a la Caja Costarricense de Seguro Social (CCSS). Este rubro comprende la cobertura médica y de pensiones de los trabajadores asalariados.</p>
+                    <div class="p-3 bg-light rounded-3 mt-2">
+                      <strong class="text-primary">Porcentaje total deducido: 10.67% del salario bruto mensual</strong>
+                      <ul class="mb-0 mt-2 small text-muted">
+                        <li>5.50% correspondiente al Seguro de Enfermedad y Maternidad (SEM).</li>
+                        <li>4.17% correspondiente al Régimen de Invalidez, Vejez y Muerte (IVM).</li>
+                        <li>1.00% correspondiente a la Ley de Protección al Trabajador (Aporte Banco Popular).</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                  <i class="faq-icon bi bi-receipt-cutoff"></i>
+                  <h3>¿Cómo funciona la escala del Impuesto sobre la Renta al salario en Costa Rica?</h3>
+                  <div class="faq-content">
+                    <p>El impuesto al salario es progresivo sobre el salario mensual bruto. No grava el total al porcentaje máximo, sino únicamente el excedente de cada tramo:</p>
+                    <div class="mt-3">
+                      <div class="bracket-table-row">
+                        <span>Hasta ₡929,000.00</span>
+                        <span class="badge bg-success-subtle text-success">Exento (0%)</span>
+                      </div>
+                      <div class="bracket-table-row">
+                        <span>De ₡929,000.00 a ₡1,363,000.00</span>
+                        <span class="badge bg-primary-subtle text-primary">10% sobre el exceso</span>
+                      </div>
+                      <div class="bracket-table-row">
+                        <span>De ₡1,363,000.00 a ₡2,392,000.00</span>
+                        <span class="badge bg-warning-subtle text-warning">15% sobre el exceso</span>
+                      </div>
+                      <div class="bracket-table-row">
+                        <span>De ₡2,392,000.00 a ₡4,783,000.00</span>
+                        <span class="badge bg-danger-subtle text-danger">20% sobre el exceso</span>
+                      </div>
+                      <div class="bracket-table-row">
+                        <span>Sobre ₡4,783,000.00 en adelante</span>
+                        <span class="badge bg-dark-subtle text-dark">25% sobre el exceso</span>
+                      </div>
+                    </div>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                  <i class="faq-icon bi bi-eye-slash"></i>
+                  <h3>¿Se almacenan o envían mis datos de salario?</h3>
+                  <div class="faq-content">
+                    <p>Absolutamente <strong>no</strong>. Todos los cálculos se efectúan 100% de manera local y en el navegador del usuario. No se transmiten datos a ningún servidor ni se almacena información en bases de datos.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
   </main>
 
+  <!-- Footer -->
   <footer id="footer" class="footer dark-background">
-
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-6 col-md-12 footer-about">
-          <a aria-label="Link al sitio web valor del tiempo" href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename"><i class="bi bi-file-earmark-person"></i> Valor del tiempo</span>
+          <a aria-label="Link al inicio de Valor del Tiempo" href="index.html" class="logo d-flex align-items-center mb-3">
+            <span class="sitename"><i class="bi bi-clock-history me-2 text-primary"></i> Valor del Tiempo</span>
           </a>
-          <p>Una herramienta segura, rápida y gratuita. En ‘El Valor Del Tiempo’, tu privacidad es nuestra prioridad. Calcula tu salario neto sin preocuparte por tus datos. Conoce tus ingresos reales en valordeltiempo.com. ¡Inténtalo hoy!</p>
-          <hr/>
-          <p>En este caso el aporte de impuesto a la renta es definido automáticamente en base al ingreso mensual bruto, esto puesto a que difiere de acuerdo a la cantidad</p>
-          <div class="social-links d-flex mt-4">
-            <a aria-label="Link al sitio de instagram de valor del tiempo" href="https://www.instagram.com/valortiempo"><i class="bi bi-instagram"></i></a>
+          <p>Herramienta financiera gratuita, rápida y privada. Calcula tu salario neto sin comprometer tus datos personales. Conoce con claridad el verdadero valor de tu tiempo de trabajo en Costa Rica.</p>
+          <div class="social-links d-flex mt-4 gap-2">
+            <a aria-label="Instagram de Valor del Tiempo" href="https://www.instagram.com/valortiempo" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+            <a aria-label="GitHub del proyecto" href="https://github.com/miguelestradam3" target="_blank" rel="noopener"><i class="bi bi-github"></i></a>
           </div>
         </div>
 
-
         <div class="col-lg-6 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contáctenos</h4>
-          <hr/>
-          <p>Moravia, San Jose</p>
-          <p>Costa Rica</p>
-          <p class="mt-4"><strong>Email:</strong> <span>valordeltiempo@gmail.com</span></p>
+          <h4>Contacto & Consultas</h4>
+          <p class="mb-1"><i class="bi bi-geo-alt me-2 text-primary"></i> San José, Costa Rica</p>
+          <p class="mb-3"><i class="bi bi-envelope me-2 text-primary"></i> valordeltiempo@gmail.com</p>
+          <p class="small text-muted">Aviso: Esta herramienta ofrece estimaciones referenciales basadas en la legislación laboral y tributaria general de Costa Rica.</p>
         </div>
-
-        <div class="col-lg-12 col-md-12 footer-about text-center text-md-start">
-          <hr/>
-          <p>Transforma tus números en claridad. Usa ‘El Valor Del Tiempo’ para conocer exactamente cuánto ganas después de los rebajos de ley. Una herramienta fácil, rápida y gratuita en valordeltiempo.com. ¡Porque tu tiempo vale oro!</p>
-        </div>
-
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Logis</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a aria-label="Página que tiene diseños de sitios web" href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+      <p class="mb-0">© <span>Copyright</span> <strong class="px-1">Valor del Tiempo</strong> <span>Todos los derechos reservados</span></p>
     </div>
-
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/js/bootstrap.bundle.min.js"></script>
+  <a href="#" id="scroll-top" class="scroll-top"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
+  <script src="assets/vendor/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -428,12 +529,9 @@
   <!-- JQuery CDN -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-  <!-- Main JS File -->
+  <!-- Main App JS Files -->
   <script src="assets/js/index.js"></script>
   <script src="assets/js/functions.js"></script>
-<script>
-
-</script>
 
 </body>
 </html>
